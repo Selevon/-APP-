@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,user-scalable"
+    />
+    <title>用户-任务清单页</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/todoList.css" />
+  </head>
+
+  <body>
+    <!-- 头部 -->
+    <div class="todoList-firstImage">
+      <img src="images/todoList/first-image.png" alt="" />
+    </div>
+    <span class="mainTitle">任务清单</span>
+    <input type="text" placeholder="查询任务" class="todoList-searchBox" />
+    <a href="./用户-消息主页.html">
+      <button id="todoList-return-button">
+        <!-- 制作返回的三角形 -->
+        <div></div></button
+    ></a>
+
+    <!-- 时间查询栏 -->
+    <div class="timeSearch">
+      <!-- 这里是 信息搜索-年 选择框 -->
+      <select name="" id="" class="dateSelect year-search">
+        <option value="">年</option>
+        <option value="">2020</option>
+        <option value="">2021</option>
+        <option value="">2022</option>
+      </select>
+
+      <!-- 这里是 信息搜索-月 选择框 -->
+      <select name="" id="" class="dateSelect month-search">
+        <option value="">月</option>
+        <option value="">1月</option>
+        <option value="">2月</option>
+        <option value="">3月</option>
+        <option value="">4月</option>
+        <option value="">5月</option>
+        <option value="">6月</option>
+        <option value="">7月</option>
+        <option value="">8月</option>
+        <option value="">9月</option>
+        <option value="">10月</option>
+        <option value="">11月</option>
+        <option value="">12月</option>
+      </select>
+
+      <!-- 这里是 信息搜索-日 选择框 -->
+      <select name="" id="" class="dateSelect day-search">
+        <option value="">日</option>
+        <option value="">1日</option>
+        <option value="">2日</option>
+        <option value="">3日</option>
+        <option value="">4日</option>
+        <option value="">5日</option>
+        <option value="">6日</option>
+        <option value="">7日</option>
+        <option value="">8日</option>
+        <option value="">9日</option>
+        <option value="">10日</option>
+        <option value="">11日</option>
+        <option value="">12日</option>
+        <option value="">13日</option>
+        <option value="">14日</option>
+        <option value="">15日</option>
+        <option value="">16日</option>
+        <option value="">17日</option>
+        <option value="">18日</option>
+        <option value="">19日</option>
+        <option value="">20日</option>
+        <option value="">21日</option>
+        <option value="">22日</option>
+        <option value="">23日</option>
+        <option value="">24日</option>
+        <option value="">25日</option>
+        <option value="">26日</option>
+        <option value="">27日</option>
+        <option value="">28日</option>
+        <option value="">29日</option>
+        <option value="">30日</option>
+        <option value="">31日</option>
+      </select>
+
+      <button class="week-button">按周</button>
+    </div>
+
+    <div class="todoList-displayBox">
+      <div>
+        <p>
+          <span>5月21日提交-还剩</span
+          ><span style="color: red; font-size: 6.4vw"> 1 </span><span>天</span>
+        </p>
+        <div class="singleTask">
+          <button>大创报告提交</button><input type="checkbox" />
+        </div>
+      </div>
+      <div>
+        <p>
+          <span>5月24日提交-还剩</span
+          ><span style="color: red; font-size: 6.4vw"> 4 </span><span>天</span>
+        </p>
+        <div class="singleTask">
+          <button>微机原理实验报告</button><input type="checkbox" />
+        </div>
+        <div class="singleTask">
+          <button>第三次模电实验</button><input type="checkbox" />
+        </div>
+      </div>
+      <div>
+        <p>
+          <span>5月27日提交-还剩</span
+          ><span style="color: red; font-size: 6.4vw"> 7 </span><span>天</span>
+        </p>
+        <div class="singleTask">
+          <button>青年大学习统计名单</button><input type="checkbox" />
+        </div>
+        <div class="singleTask">
+          <button>步行街社团招新</button><input type="checkbox" />
+        </div>
+      </div>
+    </div>
+
+    <!-- 底部页面栏 -->
+    <div class="changePageBar">
+      <button>消息</button>
+      <button>世界</button>
+      <button>我的</button>
+      <div class="color-bar"></div>
+    </div>
+  </body>
+</html>

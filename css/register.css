@@ -1,0 +1,98 @@
+.register-firstImage {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50.9333vw;
+  height: auto;
+}
+.register-firstImage img {
+  width: 100%;
+}
+button {
+  border: none;
+}
+#register-return-button {
+  position: absolute;
+  top: 21.8667vw;
+  left: 0;
+  width: 10.5333vw;
+  height: 8.5333vw;
+  background-color: #F5F5F4;
+  box-shadow: 0vw 0.5333vw 0.5333vw 0vw rgba(0, 0, 0, 0.25);
+}
+#register-return-button div {
+  width: 0;
+  height: 0;
+  border: 3vw solid transparent;
+  border-right-color: #979797;
+}
+.mainTitle {
+  position: absolute;
+  top: 21.5vw;
+  left: 11.5333vw;
+  font-size: 8.0667vw;
+  letter-spacing: 0.4vw;
+}
+.subtitle {
+  position: absolute;
+  top: 34.9333vw;
+  left: 11.5333vw;
+  font-size: 4vw;
+  color: #494949;
+  letter-spacing: 1vw;
+}
+form {
+  position: absolute;
+  top: 38.3333vw;
+  left: 8.5333vw;
+}
+form span {
+  display: block;
+  font-size: 4.8vw;
+  letter-spacing: 4vw;
+  color: #666;
+  margin-top: 5.0667vw;
+}
+form div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2.1333vw;
+}
+form div select {
+  width: 27.2vw;
+  height: 13.0667vw;
+  background-color: #f1f1f1;
+  border-radius: 3.7333vw;
+  box-shadow: 0vw 1.0667vw 1.0667vw 0vw rgba(0, 0, 0, 0.25);
+  border: none;
+  margin-right: 2vw;
+  font-size: 4.8vw;
+  text-indent: 3vw;
+  color: #828282;
+}
+form div select option {
+  border: none;
+  box-shadow: none;
+}
+form input {
+  border: none;
+  text-indent: 7.4667vw;
+  width: 82.9333vw;
+  height: 14.9333vw;
+  font-size: 4.8vw;
+  background: #f1f1f1;
+  border-radius: 3.7333vw;
+  box-shadow: 0vw 1.0667vw 1.0667vw 0vw rgba(0, 0, 0, 0.25);
+  margin-top: 5vw;
+}
+#register-button {
+  position: absolute;
+  left: 8.5333vw;
+  bottom: 4.6667vw;
+  font-size: 4.8vw;
+  width: 82.9333vw;
+  height: 14.9333vw;
+  background: #c9e0c1;
+  border-radius: 3.7333vw;
+  box-shadow: 0vw 1.0667vw 1.0667vw 1.0667vw rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,154 @@
+.index-firstImage {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50.9333vw;
+  height: auto;
+}
+.index-firstImage img {
+  width: 100%;
+}
+.mainTitle {
+  position: absolute;
+  top: 4.8vw;
+  left: 8.2667vw;
+  font-size: 9.0667vw;
+  letter-spacing: 0.5333vw;
+}
+.index-searchBox {
+  position: absolute;
+  top: 19vw;
+  left: 5.8667vw;
+  width: 69.8667vw;
+  height: 8.5333vw;
+  background: #f2ecec;
+  color: #828282;
+  border: none;
+  box-shadow: 0vw 0.5333vw 0.5333vw 0vw rgba(0, 0, 0, 0.25);
+  border-radius: 4vw;
+  font-size: 4.8vw;
+  padding-left: 4.8vw;
+  letter-spacing: 0.8vw;
+}
+.timeSearch {
+  position: absolute;
+  top: 30.4667vw;
+  left: 5.8667vw;
+  font-size: 4vw;
+}
+.timeSearch .week-button {
+  margin-left: 1.3333vw;
+  width: 20.2667vw;
+  height: 8.2667vw;
+  background: #f1f1f1;
+  font-size: 5.3333vw;
+  border: none;
+  border-radius: 3.4667vw;
+  box-shadow: 0vw 0.5667vw 0vw 0.1vw rgba(0, 0, 0, 0.25);
+}
+.timeSearch .dateSelect {
+  width: 20.2vw;
+  height: 8.2667vw;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 3.7333vw;
+  box-shadow: 0vw 0.5667vw 0vw 0.1vw rgba(0, 0, 0, 0.25);
+  padding-left: 3.3333vw;
+  margin-bottom: 5.3333vw;
+  margin-left: 1.3333vw;
+}
+.message-displayBox {
+  position: absolute;
+  top: 45.4667vw;
+  left: 6.6667vw;
+  width: 82.9333vw;
+  height: 62%;
+  background: #ffffff;
+  border: none;
+  border-radius: 5.3333vw;
+  overflow: auto;
+  box-shadow: 0vw 0.2333vw 1.5333vw 0vw rgba(0, 0, 0, 0.25);
+  padding-top: 2.6667vw;
+}
+.message-displayBox .messageBox {
+  overflow: auto;
+  height: 80%;
+  border-radius: 4vw;
+  box-shadow: 0vw 0.5333vw 0.5333vw 0vw rgba(0, 0, 0, 0.25);
+}
+.message-displayBox .messageBox .oneDayBox {
+  margin-left: 5%;
+  margin-top: 2.6667vw;
+  margin-bottom: 5.3333vw;
+  margin-right: 5%;
+  box-shadow: 0vw 0.5333vw 0.5333vw 0vw rgba(0, 0, 0, 0.25);
+  border-radius: 4vw;
+  width: 85%;
+  padding: 2.6667vw 0vw 2.6667vw 2.6667vw;
+  background-color: #f2ecec;
+}
+.message-displayBox .messageBox .oneDayBox .singleMessage {
+  position: relative;
+  width: 90%;
+  height: 8vw;
+  box-shadow: 0vw 0.5333vw 0.5333vw 0vw rgba(0, 0, 0, 0.25);
+  border-radius: 4vw;
+  background-color: #ffffff;
+  margin-bottom: 3vw;
+}
+.message-displayBox .messageBox .oneDayBox .singleMessage span {
+  font-size: 5.3333vw;
+  border: none;
+}
+.message-displayBox .messageBox .oneDayBox .singleMessage img {
+  position: absolute;
+  top: 0;
+  right: 4.6667vw;
+  height: 90%;
+}
+.message-displayBox span {
+  font-size: 3.7333vw;
+  color: #666;
+  border-bottom: 0.2667vw solid #666;
+  margin-left: 5.3333vw;
+}
+.message-displayBox .toDoList-button {
+  position: absolute;
+  bottom: 4.1333vw;
+  left: 17.3333vw;
+  width: 44.8vw;
+  height: 12.5333vw;
+  font-size: 5.3333vw;
+  border-radius: 3.4667vw;
+  background: #c9e0c1;
+  border: none;
+  box-shadow: 0vw 0.5333vw 0.5333vw 0vw rgba(0, 0, 0, 0.25);
+}
+.changePageBar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.changePageBar button {
+  width: 24vw;
+  margin-top: 3.3333vw;
+  height: 11.4667vw;
+  background: #c9e0c1;
+  border-radius: 3.4667vw;
+  box-shadow: 0vw 1.0667vw 1.0667vw 0vw rgba(0, 0, 0, 0.25);
+  font-size: 5.3333vw;
+  text-align: center;
+  border: none;
+}
+.changePageBar .color-bar {
+  z-index: -1;
+  background-color: #087620;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+}

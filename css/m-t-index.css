@@ -1,0 +1,118 @@
+.m-t-index-firstImage {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.m-t-index-firstImage img {
+  width: 100%;
+}
+#m-t-index-return-button {
+  position: absolute;
+  top: 15.8667vw;
+  left: 0;
+  width: 10.5333vw;
+  height: 8.5333vw;
+  background-color: #F5F5F4;
+  box-shadow: 0vw 0.5333vw 0.5333vw 0vw rgba(0, 0, 0, 0.25);
+}
+#m-t-index-return-button div {
+  width: 0;
+  height: 0;
+  border: 3vw solid transparent;
+  border-right-color: #979797;
+}
+.mainTitle {
+  position: absolute;
+  top: 15.1893vw;
+  left: 12.4373vw;
+  font-size: 9.0667vw;
+  letter-spacing: -0.2333vw;
+}
+.subtitle {
+  position: absolute;
+  top: 28.9333vw;
+  left: 13.5333vw;
+  font-size: 4.5vw;
+  color: #494949;
+}
+.m-t-index-displayBox {
+  position: absolute;
+  top: 37.4667vw;
+  left: 6.6667vw;
+  width: 85%;
+  height: 78vw;
+  background: #ffffff;
+  border: none;
+  border-radius: 5.3333vw;
+  overflow: auto;
+  box-shadow: 0vw 0.2333vw 1.5333vw 0vw rgba(0, 0, 0, 0.25);
+  padding-top: 2.6667vw;
+}
+.m-t-index-displayBox .oneDayBox {
+  margin-left: 5%;
+  margin-top: 2.6667vw;
+  margin-bottom: 5.3333vw;
+  margin-right: 5%;
+  box-shadow: 0vw 0.5333vw 0.5333vw 0vw rgba(0, 0, 0, 0.25);
+  border-radius: 4vw;
+  width: 85%;
+  padding: 2.6667vw;
+  background-color: #f2ecec;
+}
+.m-t-index-displayBox .oneDayBox .singleMessage {
+  position: relative;
+  width: 90%;
+  height: 8vw;
+  box-shadow: 0vw 0.5333vw 0.5333vw 0vw rgba(0, 0, 0, 0.25);
+  border-radius: 4vw;
+  background-color: #ffffff;
+  margin-bottom: 3vw;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+.m-t-index-displayBox .oneDayBox .singleMessage span {
+  font-size: 5.3333vw;
+  border: none;
+}
+.m-t-index-displayBox .oneDayBox .singleMessage img {
+  position: absolute;
+  top: 0;
+  right: 4.6667vw;
+  height: 90%;
+}
+.m-t-index-displayBox span {
+  font-size: 3.7333vw;
+  color: #666;
+  border-bottom: 0.2667vw solid #666;
+  margin-left: 5.3333vw;
+}
+.manipulateBar {
+  position: absolute;
+  bottom: -3.2667vw;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  height: 53.3333vw;
+  border: none;
+  border-radius: 4vw;
+  padding-top: 4vw;
+  background-color: #F2F2F2;
+}
+.manipulateBar ul li {
+  display: inline-block;
+  width: 49%;
+  white-space: nowrap;
+}
+.manipulateBar ul li button {
+  margin-bottom: 4vw;
+  width: 80%;
+  height: 11.4667vw;
+  border-radius: 3.4667vw;
+  box-shadow: 0vw 1.0667vw 1.0667vw 0vw rgba(0, 0, 0, 0.25);
+  font-size: 5.3333vw;
+  text-align: center;
+  border: none;
+  background-color: #fff;
+  overflow-x: auto;
+  overflow-y: auto;
+}

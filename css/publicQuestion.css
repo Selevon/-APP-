@@ -1,0 +1,102 @@
+.publicQuestion-firstImage {
+  position: absolute;
+  top: -1.3333vw;
+  right: 0;
+  width: 85.8667vw;
+  height: 31.2vw;
+}
+.publicQuestion-firstImage img {
+  width: 100%;
+  height: auto;
+}
+#publicQuestion-return-button {
+  position: absolute;
+  top: 21.8667vw;
+  left: 0;
+  width: 10.5333vw;
+  height: 8.5333vw;
+  background-color: #F5F5F4;
+  box-shadow: 0vw 0.5333vw 0.5333vw 0vw rgba(0, 0, 0, 0.25);
+}
+#publicQuestion-return-button div {
+  width: 0;
+  height: 0;
+  border: 3vw solid transparent;
+  border-right-color: #979797;
+}
+.mainTitle {
+  position: absolute;
+  top: 20.1893vw;
+  left: 12.4373vw;
+  font-size: 9.0667vw;
+  letter-spacing: -0.2333vw;
+}
+.subtitle {
+  position: absolute;
+  top: 33.9333vw;
+  left: 13.5333vw;
+  font-size: 4.5vw;
+  color: #494949;
+}
+.publicQuestion-displayBox {
+  position: absolute;
+  top: 46.4667vw;
+  left: 6.6667vw;
+  width: 82.9333vw;
+  height: 63%;
+  box-shadow: 0vw 0.6333vw 1.333vw 0vw rgba(0, 0, 0, 0.4);
+  background-color: #F2F2F2;
+  border-radius: 5.3333vw;
+  overflow: auto;
+}
+.publicQuestion-displayBox .single-question {
+  box-shadow: 0vw 0.6333vw 1.333vw 0vw rgba(0, 0, 0, 0.4);
+  margin: 3.6667vw 2.6667vw;
+  padding: 2.6667vw 2.6667vw;
+  border-radius: 4.2667vw;
+  background-color: #fff;
+  margin-bottom: 8.3333vw;
+}
+.publicQuestion-displayBox .single-question .question-title {
+  width: 90%;
+  margin-top: 3.3333vw;
+  margin-left: 4vw;
+  font-size: 6.3333vw;
+  letter-spacing: 0.5vw;
+  color: #754D4D;
+}
+.publicQuestion-displayBox .single-question .question-description {
+  width: 90%;
+  margin-top: 3.3333vw;
+  margin-left: 4vw;
+  font-size: 4vw;
+}
+.publicQuestion-displayBox .single-question .answer {
+  font-size: 4vw;
+  color: #087620;
+  width: 90%;
+  margin-top: 3.3333vw;
+  margin-left: 4vw;
+  margin-bottom: 2.6667vw;
+}
+.publicQuestion-displayBox .single-question .answer span {
+  font-weight: 700;
+}
+.buttonBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 82.9333vw;
+  position: absolute;
+  bottom: 4.3vw;
+  left: 6.6vw;
+}
+.buttonBar button {
+  width: 30vw;
+  height: 11.4667vw;
+  border-radius: 3.4667vw;
+  box-shadow: 0vw 1.0667vw 1.0667vw 0vw rgba(0, 0, 0, 0.25);
+  font-size: 5.3333vw;
+  text-align: center;
+  border: none;
+}

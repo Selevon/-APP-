@@ -1,0 +1,53 @@
+1.登录页面
+
+用户登录。
+请求链接：
+请求方法：POST
+请求参数：
+	username:Varchar(20)。 用户名
+	password:Varchar(20)。     密码
+
+返回参数:
+	userID
+	success：登录成功，进入消息主页
+	fail:	未找到用户名
+	fail:	密码不正确
+
+
+2.注册页面
+
+创建用户。在创建用户后，需要验证用户的邮箱或手机号才能激活账户。
+请求链接：[base_domain]/user/create_user
+请求方法：POST
+请求参数：
+    username: Varchar(20)。用户名
+    email: Varchar()。用户邮箱
+    password: Varchar(20)。密码
+    first_name: Varchar(150)。名
+    last_name: Varchar(150)。姓
+返回参数：
+    success: 注册成功，请查看邮箱以激活账户
+    fail: 未填写用户名
+    fail: 此用户已存在
+    fail: 未填写邮箱
+    fail: 未填写密码
+    fail: 用户名超过了150字符串限制
+    fail: 名超过了150字符串限制
+    fail: 姓超过了150字符串限制
+
+
+3.用户-消息主页面（首页）
+
+接受消息。根据用户所具有的标签，接收来自标签管理员发送的消息，并显示在消息展示框。
+请求链接：
+请求方法：POST
+请求参数：Id: int(20)——>用户具有的所有标签ID
+返回参数：未获取过的消息ID(Int)
+	文本内容(Varchar)
+	附件
+	success: 消息获取成功
+	fail: 未获取用户标签
+
+	
+
+	

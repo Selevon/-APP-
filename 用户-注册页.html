@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,,user-scalable=no"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/register.css" />
+    <title>用户-注册页</title>
+  </head>
+
+  <body>
+    <!-- 最上方的图片 -->
+    <div class="register-firstImage">
+      <img src="images/register/register-image.png" alt="" />
+    </div>
+    <button id="register-return-button">
+      <!-- 制作返回的三角形 -->
+      <div></div>
+    </button>
+
+    <span class="mainTitle">欢迎您的到来</span>
+    <span class="subtitle">创建一个新用户</span>
+
+    <form action="">
+      <input type="text" placeholder="请输入您的邮箱" />
+      <span>所属组织：</span>
+      <div>
+        <select name="" id="province">
+          <option>省份</option>
+          <option>北京</option>
+          <option>河南</option>
+          <option>山东</option>
+          <option>陕西</option>
+          <option>山西</option>
+          <option>河北</option>
+          <option>安徽</option>
+          <option>上海</option>
+          <option>广州</option>
+        </select>
+        <select name="" id="city">
+          <option>城市</option>
+          <option>北京</option>
+          <option>上海</option>
+          <option>重庆</option>
+          <option>哈尔滨</option>
+        </select>
+        <select name="" id="organization">
+          <option>组织</option>
+          <option>哈工大</option>
+          <option>哈师大</option>
+          <option>哈医大</option>
+        </select>
+      </div>
+
+      <!-- 输入学(工)号 -->
+      <input
+        type="text"
+        placeholder="请输入您的学（工）号"
+        id="student-number"
+      />
+      <input type="password" placeholder="请设置您的密码" id="password" />
+      <input type="password" placeholder="请重新确认您的密码" />
+    </form>
+    <a href="./用户-消息主页.html"
+      ><button id="register-button">注册</button></a
+    >
+  </body>
+</html>

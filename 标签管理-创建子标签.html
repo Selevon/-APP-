@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>标签管理-创建子标签</title>
+    <link rel="stylesheet" href="css/m-t-createTags.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+  </head>
+  <body>
+    <!-- 头部 -->
+    <div class="m-t-createTags-firstImage">
+      <img src="images/m-t-createTags/first-image.png" alt="" />
+    </div>
+    <span class="mainTitle">创建子标签</span>
+    <span class="subtitle">从属级别：体育部-体育宣传-</span>
+    <a href="./标签管理-标签管理主页.html">
+      <button id="m-t-createTags-return-button">
+        <!-- 制作返回的三角形 -->
+        <div></div></button
+    ></a>
+
+    <!-- 消息编辑栏 -->
+    <div class="editValues">
+      <form action="">
+        <input type="text" placeholder="请输入该标签的名称" /><br />
+        <span>添加管理员:</span> <button class="addAdmin">添加</button>
+        <!-- 层级显示 -->
+        <div class="m-t-createTags-displayBox">
+          <div class="AdminBox">
+            <div class="singlePerson">
+              <span>赵子息</span>
+            </div>
+            <div class="singlePerson">
+              <span>胡飞</span>
+            </div>
+            <div class="singlePerson">
+              <span>侯天瑜</span>
+            </div>
+          </div>
+        </div>
+        <!-- 这里因为admin和user的按钮样式一样，所以统一都用addAdmin作为样式 -->
+        <span>添加用户:</span> <button class="addAdmin">添加</button>
+        <div class="m-t-createTags-displayBox">
+          <div class="AdminBox">
+            <span class="chosen">已选择：</span>
+            <div class="singlePerson">
+              <span>赵子息</span>
+            </div>
+            <div class="singlePerson">
+              <span>胡飞</span>
+            </div>
+            <div class="singlePerson">
+              <span>侯天瑜</span>
+            </div>
+            <div class="singlePerson">
+              <span>王子豪</span>
+            </div>
+            <div class="singlePerson">
+              <span>怏然</span>
+            </div>
+            <div class="singlePerson">
+              <span>证辉隆</span>
+            </div>
+            <div class="singlePerson">
+              <span>舒华</span>
+            </div>
+            <div class="singlePerson">
+              <span>陈婉</span>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="buttonBar">
+      <a href="./标签管理-标签管理主页.html"><button>确定</button></a>
+    </div>
+  </body>
+</html>

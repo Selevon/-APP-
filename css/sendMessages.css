@@ -1,0 +1,121 @@
+.sendMessages-firstImage {
+  position: absolute;
+  top: -1.3333vw;
+  right: 0;
+  width: 85.8667vw;
+  height: 31.2vw;
+}
+.sendMessages-firstImage img {
+  width: 100%;
+  height: auto;
+}
+#sendMessages-return-button {
+  position: absolute;
+  top: 21.8667vw;
+  left: 0;
+  width: 10.5333vw;
+  height: 8.5333vw;
+  background-color: #F5F5F4;
+  box-shadow: 0vw 0.5333vw 0.5333vw 0vw rgba(0, 0, 0, 0.25);
+}
+#sendMessages-return-button div {
+  width: 0;
+  height: 0;
+  border: 3vw solid transparent;
+  border-right-color: #979797;
+}
+.mainTitle {
+  position: absolute;
+  top: 20.1893vw;
+  left: 12.4373vw;
+  font-size: 9.0667vw;
+  letter-spacing: -0.2333vw;
+}
+.subtitle {
+  position: absolute;
+  top: 33.9333vw;
+  left: 13.5333vw;
+  font-size: 4.5vw;
+  color: #494949;
+}
+.editMessages {
+  position: absolute;
+  top: 38.9333vw;
+  left: 5.6vw;
+  width: 85%;
+  height: 72%;
+  overflow: auto;
+  margin-top: 2.6667vw;
+  box-shadow: 0vw 1.0667vw 1.0667vw 0vw rgba(0, 0, 0, 0.25);
+  padding-top: 3.3333vw;
+  padding-left: 1.6667vw;
+  border-radius: 4vw;
+}
+.editMessages form .timeBar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.editMessages form .timeBar li {
+  width: 33.33%;
+}
+.editMessages form .timeBar li select {
+  width: 90%;
+  margin-bottom: 2.6667vw;
+  height: 10.0667vw;
+  background-color: #f1f1f1;
+  border-radius: 2.6667vw;
+  border: none;
+  box-shadow: 0vw 1.0667vw 1.0667vw 0vw rgba(0, 0, 0, 0.25);
+  padding-left: 2.6667vw;
+  font-size: 4.8vw;
+}
+.editMessages span {
+  color: #666;
+  font-size: 4.8vw;
+}
+.editMessages ul {
+  margin-top: 3.3333vw;
+}
+.editMessages input {
+  width: 82%;
+  height: 12.5333vw;
+  background: #f1f1f1;
+  border-radius: 3.7333vw;
+  box-shadow: 0vw 1.0667vw 1.0667vw 0vw rgba(0, 0, 0, 0.25);
+  padding-left: 3.3333vw;
+  margin-bottom: 5.3333vw;
+  margin-left: 1.3333vw;
+}
+.editMessages img {
+  margin-left: 2.3333vw;
+  width: 55.7333vw;
+  height: 20.2667vw;
+}
+.editMessages .messageText {
+  margin-top: 4vw;
+  width: 90%;
+  height: 76.2667vw;
+  text-align: center;
+  overflow: auto;
+}
+.editMessages .buttonBar {
+  width: 100%;
+  text-align: center;
+}
+.editMessages .buttonBar button {
+  width: 80%;
+  height: 11.4667vw;
+  border-radius: 3.4667vw;
+  box-shadow: 0vw 1.0667vw 1.0667vw 0vw rgba(0, 0, 0, 0.25);
+  font-size: 4.8vw;
+  text-align: center;
+  border: none;
+  color: #fff;
+  background-color: #F17502;
+  margin-top: 4vw;
+  letter-spacing: 0.5333vw;
+}
+.editMessages .buttonBar button:nth-last-child(1) {
+  margin-bottom: 4vw;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>标签管理-标签管理主页</title>
+    <link rel="stylesheet" href="css/m-t-index.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+  </head>
+  <body>
+    <!-- 头部 -->
+    <div class="m-t-index-firstImage">
+      <img src="images/m-t-index/first-image.png" alt="" />
+    </div>
+    <span class="mainTitle">标签管理</span>
+    <span class="subtitle">你可以在这里进行管理操作</span>
+    <a href="./管理-管理组织页.html">
+      <button id="m-t-index-return-button">
+        <!-- 制作返回的三角形 -->
+        <div></div>
+      </button>
+    </a>
+
+    <!-- 层级显示 -->
+    <div class="m-t-index-displayBox">
+      <!-- 这里层级依次显示，选择完第一层级之后，才能选择第二层级 -->
+      <span>第一层级</span>
+      <div class="oneDayBox">
+        <div class="singleMessage">
+          <span>哈工大体育部</span>
+        </div>
+      </div>
+      <span>第二层级</span>
+      <div class="oneDayBox">
+        <div class="singleMessage">
+          <span>一校区体育部</span>
+        </div>
+        <div class="singleMessage">
+          <span>二校区体育部</span>
+        </div>
+        <div class="singleMessage">
+          <span>三校区体育部</span>
+        </div>
+      </div>
+      <span>第三层级</span>
+      <div class="oneDayBox">
+        <div class="singleMessage">
+          <span>教务办公室</span>
+        </div>
+        <div class="singleMessage">
+          <span>体育教学与训练研究中心</span>
+        </div>
+        <div class="singleMessage">
+          <span>体育竞赛与校园体育文化办公室</span>
+        </div>
+        <div class="singleMessage">
+          <span>体育部综合办公室</span>
+        </div>
+        <div class="singleMessage">
+          <span>场馆与教学保障中心</span>
+        </div>
+      </div>
+    </div>
+    <div class="manipulateBar">
+      <ul>
+        <li><button>设置管理员</button></li>
+        <a href="./标签管理-创建子标签.html">
+          <li><button>创建子标签</button></li></a
+        >
+        <li><button>更改标签名称</button></li>
+        <a href="./标签管理-增加成员.html">
+          <li><button>增加成员</button></li>
+        </a>
+        <a href="./标签管理-删除成员.html">
+          <li><button>删除成员</button></li></a
+        >
+        <li><button>删除本级和以下标签</button></li>
+      </ul>
+    </div>
+  </body>
+</html>
